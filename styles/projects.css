@@ -1,0 +1,21 @@
+/* PROJECTS CSS */
+#PROJECTS{
+    height: 100vh;
+    border: 2px solid red;
+}
+
+
+
+#projectsFirst{
+    border: 1px solid black;
+    width: 50%;
+    height: 100vh;
+}
+
+#projectHead{
+    border-bottom: 2px solid black;
+    text-align: center;
+    width: 30vw;
+    margin: auto;
+    margin-top: 8vh;
+}
