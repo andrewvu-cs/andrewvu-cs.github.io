@@ -1,0 +1,79 @@
+/* ABOUT CSS */
+#SKILLS{
+    border: 1px solid salmon;
+    height: 80vh;
+}
+
+#skillsHead{
+    border-bottom: 2px solid black;
+    text-align: center;
+    width: 30vw;
+    margin: auto;
+    margin-top: 8vh;
+    letter-spacing: 0.1111em;
+}
+
+.skills{
+
+    display: inline-block;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    border-radius: 1em;
+    width: 26.3%;
+    height: 50vh;
+    font-size: 1.3em;
+    margin-top: 7vh;
+    box-shadow: 0.2em 0.2em;
+    vertical-align: bottom;
+}
+
+#skills1{
+    
+    margin-left:5%;
+    margin-right:2.5%;
+}
+#skills2{
+    margin-left:2.5%;
+    margin-right:2.5%;
+}
+#skills3{
+    margin-left:2.5%;
+    margin-right:4.5%;
+}
+
+.section_head{
+    text-align: center;
+    /* padding: 1em 0 0 0; */
+    letter-spacing: 0.05em;
+    border-bottom: 2px solid black;
+    margin-top: 0.5em;
+
+}
+
+.section_list{
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    font-size:1.1em;
+}
+
+/* CONTACT PORTION STYLING */
+#CONTACT{
+    height: 20vh;
+    background-color: black;
+    text-align: center;
+}
+
+#contact_me{
+    color: white;
+    padding-top: 24px;
+    margin-top: 0;
+}
+
+.logos{
+    /* padding: 0.1em 0 16px 16px; */
+    color: white;
+    font-size: 2em;
+    padding: 0 0.6em 0.6em;
+}
+
