@@ -16,6 +16,10 @@ img{
     opacity: .90;
 }
 
+/* .introImg{
+
+} */
+
 .introText,
 .projText{
     position: absolute;
@@ -24,6 +28,13 @@ img{
     transform: translate(-50%, -50%);
     width: 100%;
 
+}
+
+.introText{
+    animation: fadein 3s;
+    -moz-animation: fadein 3s; /* Firefox */
+    -webkit-animation: fadein 3s; /* Safari and Chrome */
+    -o-animation: fadein 3s; /* Opera */
 }
 .name{
     margin: auto;
@@ -206,6 +217,40 @@ button:hover{
   transform: scale(1.2);
 }
 
+@keyframes fadein {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:0.9;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:0.9;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:0.9;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 0.9;
+    }
+}
+
+
 
 /* TABLETS*/
 @media only screen and (min-width: 768px){
@@ -232,7 +277,7 @@ button:hover{
         margin: auto;
         margin-top: 32px;
         margin-bottom: 32px;
-        width: 90%;
+        width: 68%;
     }
     
     h2{
@@ -303,7 +348,7 @@ button:hover{
         margin: auto;
         margin-bottom: 32px;
         padding: 0;
-        width: 92%;
+        width: 70%;
     }
 
     .projImg{
@@ -429,6 +474,7 @@ button:hover{
     .project_1{
         margin: auto;
         margin-bottom: 32px;
+        margin-top: 16px;
         padding: 0;
         margin-left: 19.5%;
         margin-right: 0;
@@ -453,7 +499,7 @@ button:hover{
     }
     
     .project p{
-        width: 60%;
+        width: 70%;
     }
     
     .projBtn{
