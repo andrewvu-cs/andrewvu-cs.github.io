@@ -4,102 +4,80 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel = "stylesheet" type = "text/css" href = "./styles/main.css" />
-    <link rel = "stylesheet" type = "text/css" href ="./styles/projects.css"/>
-    <link rel = "stylesheet" type = "text/css" href ="./styles/skills.css"/>
+    <link rel="stylesheet" href="styles.css">
 
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css?family=Cabin:400,700&display=swap" rel="stylesheet">
-
-    <!-- FONT AWESOME STYLE-->
+    <!-- Google Font API -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <title>Andrew Vu</title>
 </head>
-
 <body>
-    <!-- NAVIGATION BAR -->
-    <nav id="navbar">
-        <ul id="navbarList">
-         <li class="navbarLinks"><a href="#HOME">home</a></li>
-         <li class="navbarLinks"><a href="#PROJECTS">projects</a></li>
-         <li class="navbarLinks"><a href="#SKILLS">skills</a></li>
-         <li class="navbarLinks"><a href="#CONTACT">contact</a></li>
-        </ul>
-    </nav>
-
-    <!-- HOME CANVAS FIRST FULL SCREEN -->
-    <div id="HOME">
-        <p id="secret1">hi, secret text</p>
-
-        <div id="header">
-            <h1 id="name">ANDREW VU</h1>
-        </div>   
-
-        <div id="description">
-            <h1>FULLSTACK DEVELOPER</h1>
-            <h1>creative. ambitious. passionate.</h1>
-            <button id="btn">resume</button>
+    <div class="intro">
+        <img src="images/bg1.jpg">
+        <div class="introText">
+            <h1 class="name">Andrew Vu</h1>
+            <hr>
+            <p class="description">WEB DEVELOPER</p>
         </div>
     </div>
-
-    <!-- PROJECT CANVAS -->
-    <div id="PROJECTS">
-        <!-- <p id="secret1">hi youre cool</p> -->
-        <div id="projectsFirst">
-            <h1 id="projectHead">PROJECTS</h1>
+    <div class="about">
+        <i class="fas fa-user"></i>
+        <h2> ABOUT ME</h2>
+        <p>Recent California State University, Fullerton graduate.
+             Majored in Computer Science with a concentration in web 
+             and digital technologies. Front-end Developer.</p>
+        <button>
+            <span class="btnText">Learn More</span>
+           
+        </button>
+    </div>
+    <div class="projects">
+        <div class="project project_1">
+            <div class="projImg">
+                 <img class="projectImage" src="/images/burger2.jpg" />
+                <h2 class="projText">Burger Builder</h2>
+            </div>
+            <p>I hope you're hungry! Built using ReactJS. Incorporated back-end using Google Firebase. Implemented Routing, Redux, and React Hooks! </p>
+            <button class="projBtn">URL</button>
+            <button class="projBtn2">Github</button>
         </div>
-        <div id="projectsSecond">
+        <div class="project project_2">
+            <div class="projImg">
+                <img class="projectImage" src="/images/pkmn.jpg" />
+                <h2 class="projText">Pokedex</h2>
+            </div>
+            <p>Never could catch 'em all when I was younger, so I had to program it! One of my first projects learning ReactJS.  Incorporated pokemon API using axios. </p>
+            <button class="projBtn">URL</button>
+            <button class="projBtn2">Github</button>
+        </div>
+    </div>
+    <div class="skills">
+        <h2>TECHNICAL SKILLS</h2>
+        <div class="column">
+                <!-- <p>HTML/CSS </p> JavaScript <br> ReactJS <br> NodeJS <br> GraphQL<br> MongoDB </p> -->
+                <p>HTML/CSS </p>
+                <p>JavaScript </p>
+                <p>ReactJS </p>
+                <p>NodeJS </p>
+                <p>GraphQL</p>
+                <p>MongoDB</p>
+                <p>React Hooks</p>
+                <p>Redux</p>
 
         </div>
-
-
-
-
     </div>
-
-    <!-- SKILLS CANVAS -->
-    <div id="SKILLS">
-        <h1 id="skillsHead">TECHNICAL SKILLS</h1>
-        <section class="skills" id="skills1">
-            <h1 class="section_head">Programming Languages</h1>
-            <ul class="section_list">
-                <li><i class="fab fa-js-square"></i> JavaScript</li>
-                <li><i class="fab fa-html5"></i> HTML</li>
-                <li><i class="fab fa-python"></i> PYTHON</li>
-                <li><i class="fab fa-css3-alt"></i> CSS</li>
-            </ul>
-        </section>
-        <section class="skills" id="skills2">
-            <h1 class="section_head">Frameworks + Libraries</h1>
-            <ul class="section_list">
-                <li><i class="fab fa-react"></i> ReactJS</li>
-                <li><i class="fab fa-bootstrap"></i> Bootstrap</li>
-                <!-- <li >.</li>
-                <li >.</li> -->
-            </ul>
-        </section>
-        <section class="skills" id="skills3">
-                <h1 class="section_head">Other Tools</h1>
-                <ul class="section_list">
-                    <li>VS Code</li>
-                    <li><i class="fab fa-git-alt"></i> Git/Github</li>
-                    <!-- <li >.</li>
-                    <li >.</li> -->
-                </ul>
-        </section>
+    <div class="contacts">
+            <h2>CONTACT ME</h2>
+            <p id="contact_me">Please feel free to contact me through any of my social links listed below!</p>
+            <button id="btnContact" class="btnContact">Resume</button>
+            <hr id=contactLine>
+            <!-- <p id="contact_me">..................</p> -->
+         
+             <a href="https://www.linkedin.com/in/andrewnvu" target="_blank"><i class="fab fa-linkedin logos"></i></a>
+             <a href="https://www.github.com/andrewvu-cs" target="_blank"><i class="fab fa-github-square logos"></i></a>
+             <a href = "mailto:andrewvu-cs@gmail.com"><i class="fas fa-envelope-square logos"></i></a>
     </div>
-
-    <!-- CONTACT CANVAS -->
-    <div id="CONTACT">
-        <p id="contact_me">
-           CONTACT ME<br/>
-            .....................................................................
-        </p>
-
-        <a href="https://www.linkedin.com/in/andrewnvu" target="_blank"><i class="fab fa-linkedin logos"></i></a>
-        <a href="https://www.github.com/andrewvu-cs" target="_blank"><i class="fab fa-github-square logos"></i></a>
-        <a href = "mailto:andrewvu-cs@gmail.com"><i class="fas fa-envelope-square logos"></i></a>
-    </div>
-
 </body>
 </html>

@@ -1,0 +1,478 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    background-color: #eee;
+}
+.intro{
+    height: 90vh;
+    position: relative;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    opacity: .90;
+}
+
+.introText,
+.projText{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+
+}
+.name{
+    margin: auto;
+    font-family: 'Pacifico', cursive;
+    color: white;
+    font-size: 2.5em;
+}
+
+hr{
+    width: 50%;
+    border: none;
+    color: white;
+    background-color:#eee;
+    height: 3px;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.description{
+    letter-spacing: 0.2em;
+    color: #eee;
+    font-size: 12pt;
+}
+
+
+/* ABOUT ME PORTION */
+
+.about,
+.skills {
+    background-color:white;
+    margin: 16px;
+    padding: 16px;
+}
+
+h2{
+    font-size: 20px;
+    letter-spacing: 0.22em;
+    margin: 0 0 32px;
+    color: #444444;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.project p,
+.about p{
+    color: #666666;
+    font-size: 15.5px;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-weight: 100;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 32px;
+}
+
+.fa-user{
+    font-size: 32px;
+    margin-top: 16px;
+    margin-bottom: 20px;
+}
+
+button{
+    width: 100%;
+    padding: 12px 0;
+    font-size: 14px;
+    border: 2px solid black;
+    background-color:transparent;
+    border-radius: 1px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #444444;
+    border-radius: 4px;
+    margin-bottom: 32px;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    transition: 0.3s;
+}
+
+button:hover{
+    color: rgb(250, 164, 114);
+    border-color: rgb(250, 164, 114);
+    cursor: pointer;
+}
+
+.btnText{
+    width: 85%;
+}
+
+.contacts{
+    margin-top: 32px;
+}
+
+#contact_me{
+    width: 75%;
+    margin:auto;
+    margin-top: 32px;
+    margin-bottom: 20px;
+}
+
+#contactLine{
+    width: 30%;
+    font-size: 1.2px;
+    border: none;
+    color: black;
+    background-color:black;
+    height: 1.5px;
+    margin-bottom: 26px;
+}
+
+.btnContact{
+    width: 75%;
+}
+
+.logos{
+    font-size: 24px;
+    margin-bottom: 32px;
+    color: black;
+    letter-spacing: 0.5em;
+    transition: 0.3s;
+}
+
+.logos:hover{
+    color: rgb(250, 164, 114);
+}
+
+/* Projects */
+.projImg{
+    height: 35vh;
+    opacity: 0.95;
+    position: relative;
+    margin-bottom: 32px;
+    overflow: hidden;
+}
+
+.project{
+    background-color:white;
+    margin: 16px;
+    padding: 0;
+}
+
+.project h2{
+    color:white;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+}
+
+
+.projBtn{
+    width: 90%;
+    margin: 0 0 16px 0;
+}
+
+.projBtn2{
+    width: 90%;
+    margin: 0 0 32px 0;
+}
+
+.column{
+    column-count: 2;
+    column-width: 32px;
+    margin-bottom:32px;
+    column-rule-style: solid;
+    column-rule-width: 1px;
+    column-rule-color: black;
+}
+
+.column p{
+    margin: 0;
+    color: #444444;
+}
+
+.projectImage{
+    max-width: 100%;
+  
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.projectImage:hover{
+    -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+
+/* TABLETS*/
+@media only screen and (min-width: 768px){
+    .name{
+        color: white;
+        font-size: 4em;
+    }
+    
+    hr{
+        width: 50%;
+        height: 4px;
+    }
+    
+    .description{
+        letter-spacing: 0.3em;
+        font-size: 16pt;
+    }
+    
+    /* ABOUT ME PORTION */
+
+    .about,
+    .skills {
+        background-color:white;
+        margin: auto;
+        margin-top: 32px;
+        margin-bottom: 32px;
+        width: 90%;
+    }
+    
+    h2{
+        font-size: 24px;
+        letter-spacing: 0.25em;
+    }
+    
+    .project p,
+    .about p{
+        color: #666666;
+        font-size: 20px;
+        font-family: "Source Sans Pro", Helvetica, sans-serif;
+        width: 60%;
+        margin-bottom: 32px;
+    }
+    
+    .fa-user{
+        font-size: 48px;
+    }
+    
+    button{
+        width: 65%;
+        padding: 12px 0;
+        font-size: 16px;
+        letter-spacing: 0.3em;
+    }
+    
+    button:hover{
+        color: rgb(250, 164, 114);
+        border-color: rgb(250, 164, 114);
+    }
+    
+    .btnText{
+        width: 60%;
+    }
+    
+    .contacts{
+        margin-top: 32px;
+    }
+    
+    #contact_me{
+        width: 80%;
+        margin:auto;
+        margin-top: 32px;
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+    
+    #contactLine{
+        width: 30%;
+        font-size: 1.2px;
+        border: none;
+        color: black;
+        background-color:black;
+        height: 1.5px;
+        margin-bottom: 26px;
+    }
+    .logos{
+        font-size: 32px;
+        margin-bottom: 32px;
+        color: black;
+        letter-spacing: 0.5em;
+      
+    }
+    
+    /* Projects */
+    .project{
+        margin: auto;
+        margin-bottom: 32px;
+        padding: 0;
+        width: 92%;
+    }
+
+    .projImg{
+        height: 40vh;
+    }
+    
+    .project h2{
+        letter-spacing: 0.3em;
+        font-size: 24pt;
+    }
+    
+    
+    .projBtn{
+        width: 60%;
+    }
+    
+    .projBtn2{
+        width: 60%;
+    }
+    
+    .column p{
+        font-size: 20px;
+    }
+    
+    .btnContact{
+        width: 60%;
+    }
+}
+
+
+@media only screen and (min-width: 1400px){
+    .name{
+        color: white;
+        font-size: 4em;
+    }
+    
+    hr{
+        width: 40%;
+        height: 4px;
+    }
+    
+    .description{
+        letter-spacing: 0.3em;
+        font-size: 16pt;
+    }
+    
+    /* ABOUT ME PORTION */
+
+    .about,
+    .skills {
+        background-color:white;
+        margin: auto;
+        margin-top: 48px;
+        margin-bottom: 48px;
+        width: 60%;
+    }
+    
+    h2{
+        font-size: 32px;
+        letter-spacing: 0.25em;
+    }
+    
+    .project p,
+    .about p{
+        color: #666666;
+        font-size: 20px;
+        font-family: "Source Sans Pro", Helvetica, sans-serif;
+        width: 40%;
+        margin-bottom: 32px;
+    }
+
+    
+    button{
+        width: 45%;
+        padding: 12px 0;
+        font-size: 16px;
+        letter-spacing: 0.3em;
+    }
+    
+    button:hover{
+        color: rgb(250, 164, 114);
+        border-color: rgb(250, 164, 114);
+    }
+    
+    .btnText{
+        width: 60%;
+    }
+    
+    .contacts{
+        margin-top: 32px;
+    }
+    
+    #contact_me{
+        width: 80%;
+        margin:auto;
+        margin-top: 32px;
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+    
+    #contactLine{
+        width: 30%;
+        font-size: 1.2px;
+        border: none;
+        color: black;
+        background-color:black;
+        height: 1.5px;
+        margin-bottom: 26px;
+    }
+    .logos{
+        font-size: 32px;
+        margin-bottom: 32px;
+        color: black;
+        letter-spacing: 0.5em;
+      
+    }
+    
+    /* Projects */
+    .projects{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .project_1{
+        margin: auto;
+        margin-bottom: 32px;
+        padding: 0;
+        margin-left: 19.5%;
+        margin-right: 0;
+        width: 29.5%;
+    }
+
+    .project_2{
+        margin: auto;
+        margin-bottom: 32px;
+        padding: 0;
+        width: 29.5%;
+        margin-left: 2%;
+    }
+
+    .projImg{
+        height: 30vh;
+    }
+    
+    .project h2{
+        letter-spacing: 0.3em;
+        font-size: 24pt;
+    }
+    
+    .project p{
+        width: 60%;
+    }
+    
+    .projBtn{
+        width: 60%;
+    }
+    
+    .projBtn2{
+        width: 60%;
+    }
+    
+    .column p{
+        font-size: 20px;
+    }
+    
+    .btnContact{
+        width: 30%;
+    }
+
+    #contactLine{
+        width: 10%;
+    }
+}
